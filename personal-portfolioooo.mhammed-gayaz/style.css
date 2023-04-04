@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Tillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Great+Vibes&family=Mr+Dafoe&family=Tillana&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    background-color: rgb(201, 201, 201);
+    width: 450px;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 50px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li a:hover{
+    border: 10px solid white;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white, 0 0 200px black;
+}
+
+.main {
+    /* background-color: yellow;*/
+    width: 75vw;
+}
+
+.we {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+}
+
+.hm {
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+}
+
+.hello {
+    margin: 5px;
+    color: red;
+}
+.newdec{
+    text-align: center;
+}
+
+.my {
+    padding: 10px;
+    margin: 5px;
+    font-size: 75px;
+    color: white;
+}
+
+.hm name {
+    margin:0  25px;
+    font-style: serif;
+    color: rgb(69, 18, 18);
+    font-family: 'Alkatra', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Tillana', cursive;
+}
+
+.web {
+    color: red;
+    font-size: 75px;
+    margin: 0 25px;
+}
+
+.des {
+    color: white;
+    font-size: 75px;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    background-color: rgb(0, 0, 0);
+    width: 80vw;
+    height: 100vh;
+    /*   margin: 85px auto;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.divinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 75px;
+    color: red;
+}
+
+.name {
+    font-size: 75px;
+    font-family: 'Alkatra', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Tillana', cursive;
+    color:white;
+}
+
+.about {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.button {
+    margin-top: 30px;
+
+}
+
+.button button {
+    padding: 15px;
+    border-radius: 35px;
+    margin: 0 20px;
+    background-color:black;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.button button:hover {
+    background-color: white;
+    color: black;
+}
+
+.devpic img {
+    height: 40vw;
+}
+
+.contactform {
+    
+    padding: 50px;
+    justify-content: flex;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 400px;
+    padding-top: 250px;
+    /*  margin: 155px;*/
+}
+
+.contactform h2 {
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center;*/
+    padding: 15px;
+    font-size: 80px;
+}
+
+.contactform div {
+    padding: 10px 0;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp {
+    font-size: 20px;
+    margin: 18px 0;
+    color: midnightblue;
+}
+
+.contactform form input {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    width: 20vw;
+    height: 30px;
+    font-size: 25px;
+}
+
+.btn-sm {
+    font-size: 30px;
+    border-radius: 15px;
+    size: 30px;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.btn-sm:hover {
+    background-color: black;
+    color: white;
+}
+
+.achiv h2 {
+    font-family: 'Alkatra', cursive;
+    text-decoration: underline;
+}
+
+.achiv {
+    justify-content: center;
+    /*  text-align: center;*/
+    background-color: cornsilk;
+    /* font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: 'Alkatra', cursive;
+    margin: 200px 100px;
+    padding: 100px;
+    border: 3px solid red;
+    border-radius: 15px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.achiv ul {
+    font-family: 'Alkatra', cursive;
+    font-family: 'Tillana', cursive;
+}
+
+.p1 {
+    padding: 15px;
+    margin: 100px 50px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Tillana', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.p2 {
+    padding: 15px;
+    margin: 100px 50px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Tillana', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.p3 {
+    padding: 15px;
+    margin: 100px 50px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Tillana', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.aboutcontainer {
+    background-color: black;
+}
+
+.soft {
+    border-radius: 30px;
+    background-color: black;
+    border: 5px solid black;
+    padding: 100px;
+    margin: 15px 700px;
+    justify-content: center;
+    width: 645px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    height: 156px
+}
+
+.programming {
+    border-radius: 30px;
+    background-color: black;
+    border: 5px solid black;
+    padding: 100px;
+    margin: 15px 700px;
+    justify-content: center;
+    width: 645px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    height: 200px
+}
+
+.mech {
+    border-radius: 30px;
+    background-color: black;
+    border: 5px solid  black;
+    padding: 100px;
+    margin: 15px 700px;
+    justify-content: center;
+    width: 650px;
+    font-size: 40px; 
+    text-align: center;
+    color: white;
+    height: 200px
+}
+.soft  li {
+    list-style: none;
+}
+.mech  li {
+    list-style: none;
+}
+.programming  li {
+    list-style: none;
+}
+
+.mech h3 {
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+.programming h3 {
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+.soft h3 {
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+.soft{
+    box-shadow: 0 0 55px black 0 0 25px black;
+}
+.soft:hover{
+    box-shadow: 0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black, 0 0 200px black;
+}
+.mech{
+    box-shadow: 0 0 55px black 0 0 25px black;
+}
+.mech:hover{
+    box-shadow: 0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black, 0 0 200px black;
+}
+.programming{
+    box-shadow: 0 0 55px black 0 0 25px black;
+}
+.programming:hover{
+    box-shadow: 0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black, 0 0 200px black;
+}
+.aboutcontainer{
+    box-shadow: 0 0 55px black 0 0 25px black;
+}
+.aboutcontainer:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black, 0 0 200px black;
+}
+
